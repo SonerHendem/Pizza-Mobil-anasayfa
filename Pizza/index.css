@@ -1,0 +1,88 @@
+*{
+    box-sizing: 0px;
+    margin: 0;
+    padding: 0;
+}
+#boyut{
+    width: 414px;
+    height: 736px;
+    border-radius: 45px;
+    position: relative;
+    background: linear-gradient(to right,#141414 33%, #6A4F1F 33% 66%, #141414 66%);
+}
+#for-u{
+    position: absolute;
+    color: aliceblue;
+    size: 20px;
+    left: 45px;
+    top: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#orta-baslik{
+    position: absolute;
+    left: 29%;
+    font-size: 45px;
+    color: white;
+    border-radius: 180;
+    top: 180px;
+    
+}
+#orta-b-cizgi{
+    width: 180px;
+    height: 5px;
+    background-color: red;
+    position: absolute;
+    top: 220px;
+    left: 115px;
+    opacity: 0.6;
+} 
+
+div p{
+    font-size: 18px;
+    position: absolute;
+    left: 0px;
+    color: white;
+    width: 300px;
+    height: 50px;    
+    left: 52px;
+    text-align: center  ;
+    top: 230px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#pizza{
+    position: absolute;
+    
+    left: 31px;
+    width: 350px;
+    height: 350px;
+    top: 330px;
+    -ms-transform: rotate(7deg);
+    transform: rotate(20deg);
+    -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
+}
+/* img{
+  top: 3px;
+    position: absolute;
+    right: 500px;
+    height: 736px;
+} */
+
+#swipe-up{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 650px;
+    left: 180px;
+    cursor:pointer;
+}
+#skip{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 17px;
+    left: 53px;
+    top: 695px;
+    position: absolute;
+    cursor:pointer;
+}
+

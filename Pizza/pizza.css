@@ -1,0 +1,462 @@
+*{
+    box-sizing: 0px;
+    margin: 0;
+    padding: 0;
+    
+}
+#boyut{
+    display: inline-block;
+    position: relative;
+    width: 414px;
+    height: 736px;
+    border-radius: 45px;
+    position: relative;
+    background-color: #EAF2F5;
+}
+
+
+#h1{
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: width 2s;
+}
+#h2{
+    width: 12px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    left: 20px;
+    top: 38px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: width 2s;
+}
+#h2:hover{ 
+    width: 25px;  
+}
+#h1:hover{
+    width: 12px;
+}
+#img-kutu{
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    background-color: white;
+    right:18px ;
+    top: 23px;
+    border-radius: 50%;
+}
+.kullanici1{
+   position: absolute;
+    width: 30px;
+    right: 60px;
+    z-index: 1;
+    top: 5px;
+    cursor: pointer;
+    
+   
+}
+#img-kutu2{
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    background-color: rgb(68, 67, 67);
+    right:70px ;
+    top: 23px;
+    border-radius: 50%;
+}
+.kullanici2{ 
+    position: absolute;
+    width: 30px;
+    right:-46px;
+    top: 6px;
+   cursor: pointer;
+   
+}
+h2{
+    font-size: 25px;
+    left: 18.5px;
+    top:60px;
+    color: black;
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h4 b{
+    font-size: 14px;
+    top: 90px;
+    position: absolute;
+    left: 18.5px;
+}
+input{
+    position: absolute;
+    width: 270px;
+    height: 40px;
+    top: 126px;
+    left: 18.5px;
+    border-radius: 11px;
+    border: none;
+}
+#img-search{
+    position: absolute;
+    top: 131px;
+    left: 24px;
+    width: 30px;
+    cursor: pointer;
+}
+#filter{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 126px;
+    background-color: hsl(9, 100%, 42%);
+    right: 35px;
+    border-radius: 11px;
+}
+#filter2{
+    position: absolute;
+    width: 30px;
+    margin: 5px;
+    -ms-transform: rotate(7deg);
+    transform: rotate(20deg);
+    -webkit-transform: rotate(90deg);
+    cursor: pointer;
+    transition:  2s;
+}
+#filter2:hover{
+    -ms-transform: rotate(7deg);
+    transform: rotate(20deg);
+    -webkit-transform: rotate(0deg);
+}
+div>a{
+    position: relative;
+    top: 160px;
+    text-decoration: none;
+    color: grey;
+    display: block;
+    float: left;
+    padding: 17px;
+    font-size: 14px;
+    left: 10px;
+}
+a:hover{
+    width: 60px;
+    height: 10px;
+    background-color: white;
+    color: rgb(179, 35, 35);
+    border-radius: 20px;
+}
+#shop{
+    position: absolute;
+    top: 500px;
+    width: 414px;
+    height: 300px;
+    
+    top: 210px;
+    display: flex;
+    justify-content: space-around;
+    
+   
+}
+ .pizza-shop{
+    width: 169px;;
+    height: 280px;
+    background-color: #f7faff;
+    border-radius: 90px;
+    
+  
+    
+} 
+.pizza-mix{
+    width: 168px;
+}
+
+.checked{
+   width: 20px;
+   top: 160px;
+   left: 42px;
+   
+}
+.checked1{
+    width: 20px;
+    top: 160px;
+    left: 250px;
+   outline: none;
+    
+ }
+.star{
+    width: 15px;
+    left: 300px;
+    top: 172px;
+    position: absolute;
+}
+.star1{
+    width: 15px;
+    left: 90px;
+    top: 172px;
+    position: absolute;
+}
+.best{
+    position: absolute;
+    color: rgb(255, 149, 0);
+    display: flex;
+    font-size: 10px;
+    left: 320px;
+    top: 175px;
+}
+.best1{
+    position: absolute;
+    color: rgb(255, 149, 0);
+    display: flex;
+    font-size: 10px;
+    left: 110px;
+    top: 175px;
+
+}#pizza-1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    position: absolute;
+    top: 190px;
+    left: 48px;
+}
+#pizza-2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    position: absolute;
+    top: 190px;
+    left: 255px;
+}
+
+
+#heart-cup{
+    background-color: rgb(193, 187, 187);
+    width: 25px;
+    height: 25px;
+    border-radius: 9px;
+    position: absolute;
+    top: 228px;
+    left: 115px;
+}
+.heart{
+    width: 20px;
+    margin: 2.5px;
+}
+
+
+#heart-cup1{
+    background-color: rgb(193, 187, 187);
+    width: 25px;
+    height: 25px;
+    border-radius: 9px;
+    position: absolute;
+    top: 228px;
+    left: 320px;
+}
+
+
+#H2{
+    position: absolute;
+    top: 290px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+#button{
+    position: absolute;
+    top: 298px;
+    border: none;
+    width: 20px;
+    right: 30px;
+    display: flex;
+    cursor: pointer;
+}
+.nokta{
+    position: relative;
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border-radius: 5px;
+    margin: 1px;
+    
+}
+#small-show{
+    width: 350px;
+    height: 80px;
+    background-color: #f7faff;
+    position: absolute;
+    bottom: 135px;
+    left: 30px;
+    border-radius: 23px;
+}
+#small-mix{
+    width: 80px;
+    bottom: 136px;
+    left: 40px;
+    position: absolute;
+}
+.star3{
+    position: absolute;
+    width: 15px;
+    left: 90px;
+    bottom: 180px;
+    left: 190px;
+}
+.best3{
+    position: absolute;
+    color: rgb(255, 149, 0);
+    display: flex;
+    font-size: 10px;
+    bottom: 180px;
+    left: 210px;
+}
+
+.checked3{
+    position: absolute;
+    width: 20px;
+    top: 530px;
+    left: 150px;
+    outline: none;
+}
+
+#small-name{
+    position: absolute;
+    font-size: 14px;
+    bottom: 150px;
+    left: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#money1{
+    position: absolute;
+    font-size: 12px;
+    bottom: 170px;
+    left: 320px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+#small-show2{
+    width: 350px;
+    height: 80px;
+    background-color: #f7faff;
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    border-radius: 23px;
+}
+#small-mix1{
+    width: 80px;
+    bottom: 50px;
+    left: 40px;
+    position: absolute;
+}
+.star4{
+    position: absolute;
+    width: 15px;
+    left: 90px;
+    bottom: 95px;
+    left: 190px;
+}
+.best4{
+    position: absolute;
+    color: rgb(255, 149, 0);
+    display: flex;
+    font-size: 10px;
+    bottom: 95px;
+    left: 210px;
+}
+.checked4{
+    position: absolute;
+    width: 20px;
+    top: 615px;
+    left: 150px;
+    outline: none;
+}
+#money2{
+    position: absolute;
+    font-size: 12px;
+    bottom: 85px;
+    left: 320px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#small-name1{
+    position: absolute;
+    font-size: 14px;
+    bottom: 65px;
+    left: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+#kopya{
+    right: 10px;
+    display: inline-block;
+    width: 700px;
+    height: 736px;
+    position: absolute;
+
+}
+#left-menu{
+    position: absolute;
+    bottom: 3px;
+    width: 130px;
+    height: 40px;
+    background-color: white;
+    border-radius: 13px;
+    left: 30px;
+}
+#order{
+    width: 45px;
+    position: absolute;
+    bottom: 0px;
+    left: 185px;
+}
+#right-menu{
+    position: absolute;
+    bottom: 3px;
+    width: 130px;
+    height: 40px;
+    background-color: white;
+    border-radius: 13px;
+    right: 30px;
+}
+#house{
+    width: 30px;
+    margin: 4px;
+    left: 20px;
+    position: absolute;
+    cursor: pointer;
+}
+#user{
+    width: 30px;
+    margin: 4px;
+    left: 75px;
+    position: absolute;
+    cursor: pointer;
+}
+#heart{
+    width: 30px;
+    margin: 4px;
+    left: 75px;
+    position: absolute;
+    cursor: pointer;
+}
+#save{
+    width: 30px;
+    margin: 4px;
+    left: 15px;
+    position: absolute;
+    cursor: pointer;
+}
